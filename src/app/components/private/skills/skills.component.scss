@@ -1,0 +1,25 @@
+.page{
+    //display: flex;
+    //flex-direction: column;
+    gap: 30px;
+}
+.p-title{
+    color: var(--section-title-color);
+    font-size: 40px;
+}
+.p-description{
+    font-size: 25px;
+}
+.skills{
+    .skill-board{
+        border: 2px solid gray;
+        width: 200px;
+        border-radius: 10px;
+        .skill-name{
+            padding: 13px;
+            text-align: center;
+            color: gray;
+            font-size: 24px;
+        }
+    }
+}

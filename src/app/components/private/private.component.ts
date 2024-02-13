@@ -1,5 +1,4 @@
 import { Component, OnInit } from '@angular/core';
-import { sectionData } from '../data/section-data';
 
 
 @Component({
@@ -11,7 +10,7 @@ import { sectionData } from '../data/section-data';
 
 export class PrivateComponent implements OnInit{
 
-  sectionInfo = sectionData.sectionContent;
+  //sectionInfo = sectionData.sectionContent;
   //skillsData = sectionData.skillsSection;
 
   ngOnInit(): void {

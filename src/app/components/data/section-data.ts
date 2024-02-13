@@ -1,25 +1,28 @@
 export const sectionData = {
-    sectionContent :[
+    writingContent :[
         {
-            title:'About me',
-            description:'This section contains information about me....',
-            icon: 'assets/imgs/section-icons/id-card.png'
+            title:'An introvert View on boundaries',
+            description:'Deep in my gut i always knew, but who cares anyways....',
+            date: 'Jan 30',
+            readingTime: '5min read',
+            image:'assets/imgs/default-latter.png',
+            link:'https://souzathalez.substack.com/p/an-introvert-view-on-boundaries'
         },
         {
-            title:'Skills',
-            description:'This section contains information skills that i have',
-            icon: 'assets/imgs/section-icons/skills.png'
+            title:'A different view of Hip-Hop and Rappers',
+            description:" For people who listen... i'ts just another song... for the one's who create it.. life changing business ",
+            date: 'Jan 24',
+            readingTime: '3min read',
+            image:'assets/imgs/default-latter.png',
+            link:'https://souzathalez.substack.com/p/a-different-view-of-hip-hop-and-rappers'
+           
         },
-        {
-            title:'Projects',
-            description:'This section contains information skills that i have',
-            icon: 'assets/imgs/section-icons/project.png'
-        }
     ],
-    skillsSection:[
+    projectContent:[
         {
-            title:'Skilss',
-            description:'This section contains information skilss that i have'
+            title:'Web Application',
+            description:'This section contains information skilss that i have',
+            link:'https://souzathalez.substack.com/p/an-introvert-view-on-boundaries'
         }
     ]
 }

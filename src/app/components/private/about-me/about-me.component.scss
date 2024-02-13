@@ -10,6 +10,9 @@
 .section-description{
     font-size: 30px;
     padding: 25px;
-    color: #9E9E9E;
-    
+    color: var(--section-text-color);
+    .link-tag{
+        text-decoration: underline;
+        color: var(--section-title-color);
+    }
 }

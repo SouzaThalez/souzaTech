@@ -38,6 +38,9 @@
                 color: #9E9E9E;
                 display: flex;
                 justify-content: space-between;
+                .logout{
+                    cursor: pointer;
+                }
             }
         }
         .bottom-panel{

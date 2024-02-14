@@ -8,6 +8,7 @@ import { AboutMeComponent } from './about-me/about-me.component';
 import { ProjectsComponent } from './projects/projects.component';
 import { WritingsComponent } from './writings/writings.component';
 import { SkillsComponent } from './skills/skills.component';
+import { TopBarComponent } from './top-bar/top-bar.component';
 
 
 
@@ -21,7 +22,8 @@ import { SkillsComponent } from './skills/skills.component';
     AboutMeComponent,
     ProjectsComponent,
     WritingsComponent,
-    SkillsComponent
+    SkillsComponent,
+    TopBarComponent
   ],
   imports: [
     CommonModule,

@@ -4,7 +4,10 @@ import { sectionData } from '../../data/section-data';
 @Component({
   selector: 'app-writings',
   templateUrl: './writings.component.html',
-  styleUrl: './writings.component.scss'
+  styleUrls:[
+    './writings-mobile.scss',
+    './writings.component.scss'
+  ]
 })
 
 export class WritingsComponent implements OnInit{

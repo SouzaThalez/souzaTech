@@ -1,41 +1,30 @@
 .page-container{
     background-color: var(--page-background-color);
+    display: flex;
+    flex-direction: column;
     height: 100%;
-    .page-content{
-        display: flex;
-        flex-direction: column;
-        width: var(--page-width);
-        background-color: rgba(60, 75, 75, 0.7);
-        margin: auto;
-        height: 100%;
-        padding-left: 20px;
-        padding-right: 20px;
+    .page-body{
+        //height: calc(100% - var(--top-bar-height));
+        overflow-y: auto;
 
-        .page-body{
-            //height: 100%;
-            height: calc(100% - var(--header-height));
-            //border-top: 4px solid #777777;
-            overflow-y: auto;
+        &::-webkit-scrollbar {
+            width: 3px;
+        }
 
-            &::-webkit-scrollbar {
-                width: 3px;
-            }
-    
-            &::-webkit-scrollbar-track {
-                border-radius: 10px;
-                background-color:transparent;
-            }
-    
-            &::-webkit-scrollbar-thumb {
-                border-radius: 10px;
-                background-color: #777777;
-                cursor: pointer;
-            }
-    
-            &::-webkit-scrollbar-thumb:hover {
-                border-radius: 10px;
-                background-color:   #777777;
-            }
+        &::-webkit-scrollbar-track {
+            border-radius: 10px;
+            background-color:transparent;
+        }
+
+        &::-webkit-scrollbar-thumb {
+            border-radius: 10px;
+            background-color: #777777;
+            cursor: pointer;
+        }
+
+        &::-webkit-scrollbar-thumb:hover {
+            border-radius: 10px;
+            background-color:   #777777;
         }
     }
 }

@@ -1,7 +1,11 @@
 @media (max-width: 767px) {
-    .section-description{
-        text-align: center;
-        margin: auto;
+    .page{
+        .section-description{
+            text-align: center;
+            margin: auto;
+            font-size: 20px;
+            padding: 20px;
+        }
     }
     .project-grid{
         display: flex;

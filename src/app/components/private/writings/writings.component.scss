@@ -2,8 +2,10 @@
     gap: 23px;
 }
 .writing-section{
+    border: 1px solid;
     box-shadow: 5px 3px 3px rgb(42 36 36);
-    margin-right: 24px;
+    border-radius: 5px;
+    //margin-right: 24px;
     cursor: pointer;
     display: flex;
     .image-container{
@@ -25,7 +27,7 @@
         display: flex;
         flex-direction: column; 
         gap: 17px;
-        margin-top: 19px;
+        padding: 10px;
         width: 100%;   
         .p-title{
             font-size: 30px;

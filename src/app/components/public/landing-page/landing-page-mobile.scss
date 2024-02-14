@@ -14,3 +14,30 @@
     }
   
 }
+@media (max-width: 400px) {
+
+    .navigation-container{
+        .photo{
+            height: 169px;
+            width: 176px;
+            img{
+                height: 145px;
+            }
+        }
+        .navigation-sub-header{
+            font-size: 30px !important;
+        }
+        .nav-body{
+            .sub-btns{
+                .sub-btn{
+                    font-size: 17px !important;
+                    width: 250px !important;
+                    font-size: 16px !important;
+                }
+            }
+            .default-btn{
+                width: 313px !important;
+            }
+        }
+    }
+}

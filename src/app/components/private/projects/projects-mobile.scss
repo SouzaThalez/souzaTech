@@ -1,0 +1,13 @@
+@media (max-width: 767px) {
+    .section-description{
+        text-align: center;
+        margin: auto;
+    }
+    .project-grid{
+        display: flex;
+        flex-direction: column;
+        grid-template-columns: none;
+    }
+
+  
+}

@@ -4,7 +4,10 @@ import { sectionData } from '../../data/section-data';
 @Component({
   selector: 'app-projects',
   templateUrl: './projects.component.html',
-  styleUrl: './projects.component.scss'
+  styleUrls:[
+    './projects.component.scss',
+    './projects-mobile.scss'
+  ]
 })
 export class ProjectsComponent implements OnInit{
   

@@ -23,6 +23,11 @@ export const sectionData = {
             title:'Web Application',
             description:'This section contains information skilss that i have',
             link:'https://souzathalez.substack.com/p/an-introvert-view-on-boundaries'
+        },
+        {
+            title:'Gmail Application',
+            description:'This section contains information skilss that i have',
+            link:'https://souzathalez.substack.com/p/an-introvert-view-on-boundaries'
         }
     ]
 }

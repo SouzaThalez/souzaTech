@@ -1,0 +1,16 @@
+@media (max-width: 767px) {
+    .section-description{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        .skills{
+            display: grid;
+            grid-template-columns: auto auto;
+            .skill-board{
+                margin: auto;
+            }
+        }
+    }
+
+
+}

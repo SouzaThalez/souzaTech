@@ -1,0 +1,25 @@
+@media (max-width: 767px) {
+
+    .main-header{
+        display: flex;
+        flex-direction: column;
+        width: 690px;
+        .photo-container,.photo{
+            margin: auto;
+        }
+        .description-container{
+            .head-panel{
+                .title{
+                    text-align: center;
+                }
+                .sub-title{
+                    justify-content: center;
+                    gap: 21px;
+                }
+            }
+        }
+       
+    }
+
+  
+}

@@ -3,4 +3,22 @@
     margin-top: 30px;
     display: flex;
     flex-direction: column;
+    margin-bottom: 40px;
+}
+
+@media (max-width: 767px) {
+
+    .section-description{
+        width: 623px;
+    }
+    .page-container{
+        .page-content{
+            width: 690px !important;
+            .page-body{
+                border-top: none !important;
+            }
+        }
+    }
+   
+   
 }

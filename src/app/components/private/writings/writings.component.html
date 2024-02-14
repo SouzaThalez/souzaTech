@@ -2,15 +2,14 @@
     <div class="writing-section" 
          *ngFor="let item of content"
          (click)="navigate(item.link)">
-         
         <div class="image-container">
+            <div class="publication-date">{{item.date}}</div>
             <img [src]="item.image" alt="">
         </div>
         <div class="post-description">
             <span class="p-title">{{item.title}}</span>
             <span class="p-description">{{item.description}}</span>
             <div class="p-footer">
-                <div class="publication-date">{{item.date}}</div>
                 <span class="publication-time">{{item.readingTime}}</span>
             </div>
         </div>

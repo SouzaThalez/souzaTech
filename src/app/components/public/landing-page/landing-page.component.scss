@@ -7,10 +7,10 @@
        background-color: var(--page-background-color);
         height: 100%;
         padding: 10px;
-        .navegation-container{
+        .navigation-container{
             height: 100%;
             background-color: rgb(60,75,75,0.6);
-            .navegation-header{
+            .navigation-header{
                 padding: 12px;
                 text-align: center;
                 .photo{
@@ -25,14 +25,14 @@
                     }
                 }
             }
-            .navegation-sub-header{
+            .navigation-sub-header{
                 //padding: 30px;
                 text-align: center;
                 font-size: 40px;
                 font-family: serif;
                 color: #bab9b8;
             }
-            .navegation-body{
+            .navigation-body{
                 margin-top: 10px;
                 display: flex;
                 flex-direction: column;

@@ -18,9 +18,8 @@ export class ProjectsComponent implements OnInit{
   }
 
   navigate(link: string){
-    
+    window.location.href = link;
   }
-
 
 
 

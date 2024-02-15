@@ -13,11 +13,16 @@
     }
 
 }
-@media (max-width: 400px) {
+@media (max-width: 570px) {
     .page{
         .section-description{
             .p-description{
                 font-size: 20px;
+            }
+            .skills{
+                .skill-board{
+                    flex-direction: row;
+                }
             }
         }
     }

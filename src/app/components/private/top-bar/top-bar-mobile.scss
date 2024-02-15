@@ -1,4 +1,4 @@
-@media (max-width: 400px) {
+@media (max-width: 570px) {
     .nav-bar{
         .nav-bar-links{
             padding: 17px !important;
@@ -6,8 +6,10 @@
             margin-right: 10px !important;
             height: 30px !important;
             .link-item{
-                padding: 4px !important;
+                padding: 10px !important;
                 margin-right: 2px !important;
+                display: flex;
+                align-items: center;
             }
         }
     }

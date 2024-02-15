@@ -20,14 +20,19 @@ export const sectionData = {
     ],
     projectContent:[
         {
-            title:'Web Application',
-            description:'This section contains information skilss that i have',
-            link:'https://souzathalez.substack.com/p/an-introvert-view-on-boundaries'
+            title:'Image Slider',
+            description:'Image slider with two navigation methods. Read documentation here..',
+            link:'https://github.com/SouzaThalez/advanced-slide'
+        },
+        {
+            title:'Todo-list',
+            description:'Todo list application with two pages. Read documentation here..',
+            link:'https://github.com/SouzaThalez/Todo-list--webApp'
         },
         {
             title:'Gmail Application',
-            description:'This section contains information skilss that i have',
-            link:'https://souzathalez.substack.com/p/an-introvert-view-on-boundaries'
+            description:'Enhanced todo list application with google gmail layout. Read documentation here..',
+            link:'https://github.com/SouzaThalez/gmail-application'
         }
     ]
 }

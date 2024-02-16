@@ -3,14 +3,13 @@
     flex-direction: column;
     height: 100%;   
     .page-content{
-       //background-color: antiquewhite;
        background-color: var(--page-background-color);
         height: 100%;
-        padding: 10px;
         .navigation-container{
             height: 100%;
             background-color: rgb(60,75,75,0.6);
-            //padding-bottom: 10px;
+            display: flex;
+            flex-direction: column;
             .navigation-header{
                 padding: 12px;
                 text-align: center;
@@ -34,12 +33,11 @@
                 color: #bab9b8;
             }
             .nav-body{
-                //border: 1px solid white;
                 height: calc(100% - 260px);
                 display: flex;
                 flex-direction: column;
                 gap: 20px;
-            
+                padding-bottom: 50px;
                 overflow-y: auto;
 
                 &::-webkit-scrollbar {
@@ -103,10 +101,6 @@
                     }
                 }
             }
-
-
-
-
             .navigation-body{
                 margin-top: 10px;
                 display: flex;

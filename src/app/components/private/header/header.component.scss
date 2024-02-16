@@ -1,10 +1,6 @@
 .main-header{
-    //height:var(--header-height);
     display: flex;
     margin-top: 44px;
-    //padding-left: 20px;
-    //padding-right: 20px;
-
     .photo-container{
         width: 270px;
         text-align: center;
@@ -32,6 +28,7 @@
             gap: 19px;
             .title{
                 font-size: 35px;
+                color: red;
             }
             .sub-title{
                 font-size: 22px;

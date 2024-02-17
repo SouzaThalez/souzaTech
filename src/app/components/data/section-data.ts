@@ -33,6 +33,11 @@ export const sectionData = {
             title:'Gmail Application',
             description:'Enhanced todo list application with google gmail layout. Read documentation here..',
             link:'https://github.com/SouzaThalez/gmail-application'
+        },
+        {
+            title:'Online Portfolio',
+            description:'Portfolio website. Read documentation here..',
+            link:'https://github.com/SouzaThalez/Portifolio-webPage'
         }
     ]
 }

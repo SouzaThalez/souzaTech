@@ -2,7 +2,9 @@
     display: grid;
     grid-template-columns: repeat(3, minmax(265px, 1fr));
     gap: 17px;
-    margin-right: 10px;
+    margin-right: 40px;
+    margin-left: 40px;
+    margin-top: 30px;
     .project-container{
         height: 232px;
         border: 2px solid var(--btn-border-color);
@@ -10,9 +12,6 @@
         box-shadow: 1px 3px 3px rgb(42 36 36);
         cursor: pointer;
         transform: 1s;
-        &:hover{
-            //transform:rotateY('angle');
-        }
         .p-content{
             height: 100%;
             display: flex;
@@ -26,12 +25,14 @@
                     .p-title{
                         font-size: 34px;
                         color: var(--section-title-color);
+                        text-align: center;
                     }
                     .p-description{
                         margin-top: 16px;
                         font-size: 21px;
                         color: var(--section-text-color);
                         font-size: 21px;
+                        text-align: center;
                     }
                 }
             }

@@ -1,27 +1,22 @@
 .page{
     gap: 23px;
 }
+.writing-grid{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px
+}
 .writing-section{
     border: 2px solid var(--btn-border-color);
     box-shadow: 5px 3px 3px rgb(42 36 36);
     border-radius: 5px;
-    //margin-right: 24px;
+    margin-left: 40px;
+    margin-right: 40px;
     cursor: pointer;
     display: flex;
-    .image-container{
-        height: 200px;
-        width: 301px;
-        text-align: center;
-        padding-bottom: 10px;
-        .publication-date{
-            font-size: 20px;
-            color: aliceblue;
-        }
-        img{
-            height: 153px;
-            border-radius: 10px;
-        }
-       
+    &:hover{
+        background-color: #4b4a4a;
     }
     .post-description{
         display: flex;
@@ -45,7 +40,10 @@
             justify-content: space-between;
             font-size: 24px;
             margin-left: 20px;
-            color: #89959f
+            color: #89959f;
+            .publication-date{
+                margin-right: 30px;
+            }
         }
     }
     

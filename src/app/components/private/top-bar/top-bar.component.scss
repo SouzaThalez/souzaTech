@@ -19,12 +19,13 @@
             height: 17px;
             padding: 22px;
             font-size: 20px;
-            //border: 1px solid var(--section-title-color);
+            color: #cfbfbf;
             margin-right: 10px;
             cursor: pointer;
             border-radius: 10px;
             &.active{
                 background-color: var(--section-title-color);
+                color: white;
             }
         }
     }

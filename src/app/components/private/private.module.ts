@@ -9,6 +9,7 @@ import { ProjectsComponent } from './projects/projects.component';
 import { WritingsComponent } from './writings/writings.component';
 import { SkillsComponent } from './skills/skills.component';
 import { TopBarComponent } from './top-bar/top-bar.component';
+import { FooterComponent } from './footer/footer.component';
 
 
 
@@ -23,7 +24,8 @@ import { TopBarComponent } from './top-bar/top-bar.component';
     ProjectsComponent,
     WritingsComponent,
     SkillsComponent,
-    TopBarComponent
+    TopBarComponent,
+    FooterComponent
   ],
   imports: [
     CommonModule,

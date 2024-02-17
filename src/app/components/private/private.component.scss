@@ -4,8 +4,13 @@
     flex-direction: column;
     height: 100%;
     .page-body{
-        //height: calc(100% - var(--top-bar-height));
-        height: 100%;
+        height: calc(100% - var(--top-bar-height)); 
+        margin-top: 110px;
+        display: flex;
+        flex-direction: column;
+        //display: flex;
+        //flex-direction: column;
+        //justify-content: space-between;
         overflow-y: auto;
 
         &::-webkit-scrollbar {

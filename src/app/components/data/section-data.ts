@@ -12,7 +12,7 @@ export const sectionData = {
         {
             title:'An introvert View on boundaries',
             description:'Deep in my gut i always knew, but who cares anyways....',
-            date: 'Jan 24',
+            date: 'Jan 30',
             readingTime: '5 min read',
             image:'assets/imgs/default-latter.png',
             link:'https://souzathalez.substack.com/p/an-introvert-view-on-boundaries'

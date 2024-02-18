@@ -1,10 +1,19 @@
 export const sectionData = {
     writingContent :[
         {
+            title:'The kingdom of God is within you by Leo Tolstoy.',
+            description:"Um comentário em Português. Meu livro preferido de Tolstoy",
+            date: 'Feb 17',
+            readingTime: '5min read',
+            image:'assets/imgs/default-latter.png',
+            link:'https://souzathalez.substack.com/p/the-kingdom-of-god-is-within-you'
+           
+        },
+        {
             title:'An introvert View on boundaries',
             description:'Deep in my gut i always knew, but who cares anyways....',
-            date: 'Jan 30',
-            readingTime: '5min read',
+            date: 'Jan 24',
+            readingTime: '5 min read',
             image:'assets/imgs/default-latter.png',
             link:'https://souzathalez.substack.com/p/an-introvert-view-on-boundaries'
         },

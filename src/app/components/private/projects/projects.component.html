@@ -4,19 +4,23 @@
         <div class="project-grid">
             <div class="project-container" 
                  *ngFor="let item of content">
+
                 <div class="p-content">
+
                     <div class="p-header">
-                        <div class="project-photo-container"></div>
                         <div class="project-description-container">
-                            <div class="p-title">{{item.title}}</div>
+                            <div class="description-title">{{item.title}}</div>
                             <div class="p-description">{{item.description}}</div>
                         </div>
                     </div>
+
                     <div class="p-body" (click)="navigate(item.link)">
                         <img src="assets/icons/github.png" alt="">
                         <span class="btn-link" >GitHub</span>
                     </div>
                 </div>
+        
+
             </div>
         </div>
     </div>

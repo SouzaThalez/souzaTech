@@ -2,23 +2,25 @@
     gap: 30px;
     .section-description{
         padding: 20px;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
     }
 }
 .p-description{
     font-size: 25px;
     color: var(--section-text-color);
-    padding: 20px;
-    margin-left: 21px;
+    
 }
 .skills{
     display: flex;
     gap: 10px;
-    margin-left: 40px;
+   
     .skill-board{
         display: flex;
         flex-direction: column;
         gap: 10px;
-        .skill-name{
+        .skill-container{
             border: 2px solid gray;
             width: 200px;
             border-radius: 10px;

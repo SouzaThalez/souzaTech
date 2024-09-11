@@ -5,6 +5,7 @@
     margin-right: 40px;
     margin-left: 40px;
     margin-top: 30px;
+
     .project-container{
         height: 232px;
         border: 2px solid var(--btn-border-color);
@@ -12,30 +13,41 @@
         box-shadow: 1px 3px 3px rgb(42 36 36);
         cursor: pointer;
         transform: 1s;
+
         .p-content{
             height: 100%;
             display: flex;
             flex-direction: column;
             justify-content: space-around;
-           
-            margin-left: 10px;
-            margin-right: 10px;
-            .p-header{
-                .project-description-container{
-                    .p-title{
-                        font-size: 34px;
+            padding-left: 10px;
+            padding-right: 10px;
+
+            .p-header {
+                .project-description-container {
+                    display: flex;
+                    flex-direction: column;
+            
+                    .description-title {
+                        font-size: 32px;
                         color: var(--section-title-color);
-                        text-align: center;
+                        // text-align: center;
                     }
-                    .p-description{
-                        margin-top: 16px;
-                        font-size: 21px;
+            
+                    .p-description {
                         color: var(--section-text-color);
                         font-size: 21px;
-                        text-align: center;
+                        display: block; /* for multi-line ellipsis */
+                        line-clamp: 2; /* number of lines to show before ellipsis */
+                        -webkit-box-orient: vertical;
+                        overflow: hidden; 
+                        text-overflow: ellipsis; 
+                        height: 100px; /* adjust based on your line height and desired number of lines */
+                        
                     }
                 }
             }
+            
+
             .p-body{
              
                 border: 2px solid var(--btn-border-color);

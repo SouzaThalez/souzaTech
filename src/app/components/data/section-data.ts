@@ -30,22 +30,22 @@ export const sectionData = {
     projectContent:[
         {
             title:'Image Slider',
-            description:'Image slider with two navigation methods. Read documentation here..',
+            description:'Image slider with two navigation methods. Read documentation here',
             link:'https://github.com/SouzaThalez/advanced-slide'
         },
         {
             title:'Todo-list',
-            description:'Todo list application with two pages. Read documentation here..',
+            description:'Todo list application with two pages. Read documentation here,Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus, ducimus distinctio. Dolores earum deserunt at, eius vitae saepe modi cupiditate assumenda ducimus alias, ut sapiente neque nam optio dolor quas.',
             link:'https://github.com/SouzaThalez/Todo-list--webApp'
         },
         {
             title:'Gmail Application',
-            description:'Enhanced todo list application with google gmail layout. Read documentation here..',
+            description:'Enhanced todo list application with google gmail layout. Read documentation here',
             link:'https://github.com/SouzaThalez/gmail-application'
         },
         {
             title:'Online Portfolio',
-            description:'Portfolio website. Read documentation here..',
+            description:'Portfolio website. Read documentation here',
             link:'https://github.com/SouzaThalez/Portifolio-webPage'
         }
     ]

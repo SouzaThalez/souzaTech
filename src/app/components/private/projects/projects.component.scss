@@ -1,77 +1,89 @@
-.project-grid{
-    display: grid;
-    grid-template-columns: repeat(3, minmax(265px, 1fr));
-    gap: 17px;
-    margin-right: 40px;
-    margin-left: 40px;
-    margin-top: 30px;
+.page {
+    height: 100%;
 
-    .project-container{
-        height: 232px;
-        border: 2px solid var(--btn-border-color);
-        border-radius: 8px;
-        box-shadow: 1px 3px 3px rgb(42 36 36);
-        cursor: pointer;
-        transform: 1s;
-
-        .p-content{
-            height: 100%;
+    .page-content{
+        padding: 10px;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 23px;
+        .section-title{
+            font-size: 18px;
+            color: var(--section-title-color);
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            img{
+                width: 30px;
+            }
+        }
+        .section-description{
+            color: var(--section-text-color);
+            line-height: 25px;
+            margin-left: 38px;
             display: flex;
             flex-direction: column;
-            justify-content: space-around;
-            padding-left: 10px;
-            padding-right: 10px;
-
-            .p-header {
-                .project-description-container {
-                    display: flex;
-                    flex-direction: column;
-            
-                    .description-title {
-                        font-size: 32px;
-                        color: var(--section-title-color);
-                        // text-align: center;
-                    }
-            
-                    .p-description {
-                        color: var(--section-text-color);
-                        font-size: 21px;
-                        display: block; /* for multi-line ellipsis */
-                        line-clamp: 2; /* number of lines to show before ellipsis */
-                        -webkit-box-orient: vertical;
-                        overflow: hidden; 
-                        text-overflow: ellipsis; 
-                        height: 100px; /* adjust based on your line height and desired number of lines */
-                        
-                    }
-                }
-            }
-            
-
-            .p-body{
-             
-                border: 2px solid var(--btn-border-color);
-                border-radius: 7px;
-                background-color: rgba(56, 51, 51, 0.4);
-                text-align: center;
+            gap: 10px;
+        
+            .project-container{
+                border: 1px solid #4f4f4f;
+                border-radius: 5px;
                 display: flex;
                 align-items: center;
-                justify-content: center;
-                gap: 10px;
-                padding: 4px;
-                cursor: pointer;
-                img{
-                    height: 32px;
+                padding: 10px;
+                gap: 8px;
+
+                .project-icon{
+                    img{
+                        width: 33px;
+                    }
                 }
+                .project-name{
+                    border: 2px solid #272626;
+                    text-align: center;
+                    border-radius: 24px;
+                    width: 175px;
+                }
+                .skil-body{
+                    border: 1px solid #919191;
+                    border-radius: 5px;
+                    padding: 10px;
+                    display: flex;
+                    gap: 7px;
+                    img{
+                        width: 22px;
+                    }
+                }
+
+
                 &:hover{
-                    background-color: rgba(56, 51, 51, 0.7);
-                    color: #b7b4af;
+                    cursor: pointer;
+                    background-color: #2d2b2f;
+                 
                 }
-                .btn-link{
-                    font-size: 21px;
+            }
+            .social-links{
+                margin-left: 20px;
+                display: flex;
+                flex-direction: column;
+                flex-direction: column;
+                gap: 10px;
+                .link-item{
+                    display: flex;
+                    gap: 9px;
+                    img{
+                        width: 26px;
+                    }
+                    .green-links{
+                        color: #000;
+                        &:hover{
+                            cursor: pointer;
+                            color: var(--section-title-color);
+                        }
+                    }
                 }
             }
         }
-     
     }
 }
+

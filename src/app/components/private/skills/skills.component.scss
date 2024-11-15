@@ -1,33 +1,66 @@
 .page{
-    gap: 30px;
-    .section-description{
-        padding: 20px;
+    height: 100%;
+
+    .page-content{
+        padding: 10px;
+        height: 100%;
         display: flex;
         flex-direction: column;
-        gap: 10px;
-    }
-}
-.p-description{
-    font-size: 25px;
-    color: var(--section-text-color);
-    
-}
-.skills{
-    display: flex;
-    gap: 10px;
-   
-    .skill-board{
-        display: flex;
-        flex-direction: column;
-        gap: 10px;
-        .skill-container{
-            border: 2px solid gray;
-            width: 200px;
-            border-radius: 10px;
-            padding: 13px;
-            text-align: center;
-            color: gray;
-            font-size: 24px;
+        gap: 23px;
+        .section-title{
+            font-size: 18px;
+            color: var(--section-title-color);
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            img{
+                width: 30px;
+            }
+        }
+        .section-description{
+            color: var(--section-text-color);
+            line-height: 25px;
+            margin-left: 38px;
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        
+            .skill-container{
+                display: flex;
+                gap: 8px;
+               
+                .skil-body{
+                    border: 1px solid #919191;
+                    border-radius: 5px;
+                    padding: 10px;
+                    display: flex;
+                    gap: 7px;
+                    img{
+                        width: 22px;
+                    }
+                }
+            }
+            .social-links{
+                margin-left: 20px;
+                display: flex;
+                flex-direction: column;
+                flex-direction: column;
+                gap: 10px;
+                .link-item{
+                    display: flex;
+                    gap: 9px;
+                    img{
+                        width: 26px;
+                    }
+                    .green-links{
+                        color: #000;
+                        &:hover{
+                            cursor: pointer;
+                            color: var(--section-title-color);
+                        }
+                    }
+                }
+            }
         }
     }
 }

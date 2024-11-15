@@ -1,7 +1,39 @@
 <div class="page-container">
-      <app-top-bar></app-top-bar>
-      <div class="page-body">
-          <router-outlet></router-outlet>
-      </div>
-      <app-footer></app-footer>
+      <div class="content">
+            <div class="navigation-container">
+                <div class="image-container">
+                    <div class="img-body">
+                        <img src="assets/imgs/profileAvatar.png" alt="">
+                    </div>
+                </div>
+                <div class="navigation-body">
+                    <div class="nav-header">
+                        <div class="header-name">Thales Carvalho</div>
+                        <div class="header-sub">Selft tough coder & writer</div>
+                    </div>
+                    <div class="nav-menu-links">
+                        <div class="link-item" routerLinkActive="active" routerLink="about">About me</div>
+                        <div class="link-item" routerLinkActive="active" routerLink="skills">Skills</div>
+                        <div class="link-item" routerLinkActive="active" routerLink="projects">Projects</div>
+                        <div class="link-item" routerLinkActive="active" routerLink="writings">Writings</div>
+                    </div>
+                </div>
+            </div>
+            <div class="page-content">
+                <div class="page-content-body">
+                     <router-outlet></router-outlet>
+                     <div class="footer-container">
+                        <div class="social-list">
+                            <div class="link">Instagram</div>
+                            <div class="link">NewsLetter</div>
+                        </div>
+                        <div class="footer-border">
+                            <span>&#64; 2024</span>
+                        </div>
+                    
+                     </div>
+                </div>
+            </div>
+         
+      </div>    
 </div>

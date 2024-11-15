@@ -54,11 +54,16 @@
                         width: 26px;
                     }
                     .green-links{
-                        color: #000;
-                        &:hover{
-                            cursor: pointer;
-                            color: var(--section-title-color);
+                        
+                        a{
+                            text-decoration: none;
+                            color: #000;
+                            &:hover{
+                                cursor: pointer;
+                                color: var(--section-title-color);
+                            }
                         }
+                      
                     }
                 }
             }

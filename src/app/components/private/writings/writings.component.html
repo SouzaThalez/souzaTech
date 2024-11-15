@@ -2,67 +2,29 @@
     <div class="page-content">
         <div class="section">
             <div class="section-title">
-                <img src="assets/icons/model-cube-green.png" alt="">
+                <img src="assets/icons/writing-icon.png" alt="">
                 <span>Writing posts</span>
             </div>
             <div class="section-description">
 
-                <div class="post-container">
+                <div class="post-container"
+                     *ngFor="let item of content"
+                     (click)="navigate(item.link)">
                     <div class="post-body"> 
-                        <div class="post-title">The kingdom of God is within you</div>
-                        <div class="post-description">Um comentário em Português. Meu livro preferido de Tolstoy</div>
+                        <div class="post-title">{{item.title}}</div>
+                        <div class="post-description">{{item.description}}</div>
                     </div>
                     <div class="post-date">
-                        <span>Pub: 05/11/2024</span>
-                        <span class="date-minute">Leitura: 7 min</span>
-                    </div>
-                </div>
-                
-                <div class="post-container">
-                    <div class="post-body"> 
-                        <div class="post-title">An introvert View on boundaries</div>
-                        <div class="post-description">Deep in my gut i always knew, but who cares anyways...</div>
-                    </div>
-                    <div class="post-date">
-                        <span>Pub: 05/11/2024</span>
-                        <span class="date-minute">Leitura: 6 min</span>
+                        <span>Pub: {{item.date}}</span>
+                        <span class="date-minute">Leitura: {{item.readingTime}}</span>
                     </div>
                 </div>
 
-                <div class="post-container">
-                    <div class="post-body"> 
-                        <div class="post-title">A different view of Hip-Hop and Rappers</div>
-                        <div class="post-description"> For the people who listen... i'ts just another song... for the one's who create.. i'ts life changing business </div>
-                    </div>
-                    <div class="post-date">
-                        <span>Pub: 05/11/2024</span>
-                        <span class="date-minute">Leitura: 3 min</span>
-                    </div>
-                </div>
 
             </div>
         </div>
         
     </div>
-    <!-- <div class="section-description">
-        <div class="p-title">My writings</div>
-        <div class="writing-grid">
-            <div class="writing-section" 
-             *ngFor="let item of content"
-             (click)="navigate(item.link)">
-    
-            <div class="post-description">
-                <span class="p-title">{{item.title}}</span>
-                <span class="p-description">{{item.description}}</span>
-                <div class="p-footer">
-                    <span class="publication-time">{{item.readingTime}}</span>
-                    <span class="publication-date">{{item.date}}</span>
-                    <span class="publication-date">{{item.date}}</span>
-                </div>
-            </div>
-    
-        </div>
-        </div>
-    </div> -->
+   
 </div>
 

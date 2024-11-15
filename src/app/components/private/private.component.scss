@@ -126,9 +126,13 @@
                            
                             .link{
                                 cursor: pointer;
-                                &:hover{
-                                    color: var(--section-title-color);
-                              }
+                                a{
+                                    text-decoration: none;
+                                    color: black;
+                                    &:hover{
+                                        color: var(--section-title-color);
+                                    }
+                                }
                             }
                     }
 

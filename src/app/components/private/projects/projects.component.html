@@ -7,53 +7,20 @@
             </div>
             <div class="section-description">
 
-                <div class="project-container">
+                <div class="project-container" 
+                     *ngFor="let item of content"
+                     (click)="navigate(item.link)">
                     <div class="project-icon">
                         <img src="assets/icons/github.png" alt="">
                     </div>
                     <div class="project-name">
-                        <span>Gmail Application</span>
+                        <span>{{item.title}}</span>
                     </div>
                     <div class="project-description">
-                        <span>Enhanced todo list application with google gmail layout</span>
+                        <span>{{item.description}}</span>
                     </div>
                 </div>
 
-                <div class="project-container">
-                    <div class="project-icon">
-                        <img src="assets/icons/github.png" alt="">
-                    </div>
-                    <div class="project-name">
-                        <span>Todo-list</span>
-                    </div>
-                    <div class="project-description">
-                        <span>Todo list application with two pages</span>
-                    </div>
-                </div>
-
-                <div class="project-container">
-                    <div class="project-icon">
-                        <img src="assets/icons/github.png" alt="">
-                    </div>
-                    <div class="project-name">
-                        <span>Image Slider</span>
-                    </div>
-                    <div class="project-description">
-                        <span>Image slider with two navigation methods</span>
-                    </div>
-                </div>
-
-                <div class="project-container">
-                    <div class="project-icon">
-                        <img src="assets/icons/github.png" alt="">
-                    </div>
-                    <div class="project-name">
-                        <span>Online Portfolio</span>
-                    </div>
-                    <div class="project-description">
-                        <span>Online portfolio</span>
-                    </div>
-                </div>
             </div>
         </div>
     </div>

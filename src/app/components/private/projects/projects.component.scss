@@ -18,6 +18,7 @@
             }
         }
         .section-description{
+            margin-top: 11px;
             color: var(--section-text-color);
             line-height: 25px;
             margin-left: 38px;
@@ -59,7 +60,10 @@
                 &:hover{
                     cursor: pointer;
                     background-color: #2d2b2f;
-                 
+                    .project-name{
+                        color: var(--section-title-color);
+                    }
+                    
                 }
             }
             .social-links{

@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { sectionData } from '../../data/section-data';
+import { sectionData } from '../../../data/section-data';
 
 @Component({
   selector: 'app-writings',

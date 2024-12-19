@@ -10,6 +10,7 @@ import { WritingsComponent } from './writings/writings.component';
 import { SkillsComponent } from './skills/skills.component';
 import { TopBarComponent } from './top-bar/top-bar.component';
 import { FooterComponent } from './footer/footer.component';
+import {MatButtonModule} from '@angular/material/button';
 
 
 
@@ -29,7 +30,8 @@ import { FooterComponent } from './footer/footer.component';
   ],
   imports: [
     CommonModule,
-    PrivateRoutingModule
+    PrivateRoutingModule,
+    MatButtonModule
   ]
 })
 export class PrivateModule { }
